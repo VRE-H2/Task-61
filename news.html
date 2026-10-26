@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>News | IEA Wind TCP Task 61</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/footer.js"></script>
+  <style>
+    .menu-news {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+
+    .news-intro {
+      padding: 32px 30px;
+      background: #f3f6f2;
+      border-bottom: 4px solid #287d22;
+    }
+
+    .news-intro h1 {
+      margin: 0;
+    }
+
+    .news-intro p {
+      max-width: 760px;
+      margin: 10px 0 0;
+      color: #4a4a4a;
+      font-size: 18px;
+    }
+
+    .news-content {
+      padding: 24px 20px 48px;
+    }
+
+    .news-feature {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+      gap: 28px;
+      align-items: center;
+      margin: 24px 0 36px;
+      padding: 24px;
+      background: #fff;
+      border: 1px solid #e2e6e0;
+      border-radius: 6px;
+      box-shadow: 0 3px 12px rgb(0 0 0 / 6%);
+    }
+
+    .news-feature h2,
+    .news-section h2 {
+      margin-top: 0;
+    }
+
+    .news-feature img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 3px;
+    }
+
+    .news-label {
+      color: #287d22;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .news-empty {
+      padding: 22px 24px;
+      background: #f7f8f7;
+      border-left: 4px solid #287d22;
+    }
+
+    .news-empty p:last-child {
+      margin-bottom: 0;
+    }
+
+    .news-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .news-links a {
+      display: inline-block;
+      padding: 9px 14px;
+      color: #fff;
+      background: #287d22;
+      border-radius: 3px;
+      text-decoration: none;
+    }
+
+    .news-links a:hover {
+      background: #1d5f19;
+    }
+
+    @media (max-width: 650px) {
+      .news-feature {
+        grid-template-columns: 1fr;
+        padding: 18px;
+      }
+
+      .news-content {
+        padding-right: 14px;
+        padding-left: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <header class="news-intro">
+      <div class="content">
+        <h1>News &amp; Updates</h1>
+        <p>Follow the latest research, activities, and announcements from the IEA Wind TCP Task 61 VRE-H2 collaboration.</p>
+      </div>
+    </header>
+
+    <main class="content news-content">
+      <section class="news-feature" aria-labelledby="task-focus-title">
+        <div>
+          <span class="news-label">Task 61 in focus</span>
+          <h2 id="task-focus-title">Connecting renewable electricity and hydrogen</h2>
+          <p>Task 61 brings together the IEA Wind, Photovoltaic Power Systems (PVPS), and Hydrogen Technology Collaboration Programmes to advance the integration of variable renewable energy and hydrogen.</p>
+          <p>The collaboration develops shared use cases, technology designs, and recommended practices for VRE-hydrogen plants.</p>
+        </div>
+        <img src="img/vre_h2_diagram.jpg" alt="Diagram showing the Wind TCP, PVPS TCP, and Hydrogen TCP collaborating on VRE-H2 integration">
+      </section>
+
+      <section class="news-section" aria-labelledby="latest-news-title">
+        <h2 id="latest-news-title">Latest news</h2>
+        <div class="news-empty">
+          <p><strong>Updates will be shared here.</strong></p>
+          <p>For current announcements and videos, follow Task 61 on its official channels.</p>
+          <div class="news-links">
+            <a href="https://www.linkedin.com/company/iea-wind-task-61/posts" target="_blank" rel="noopener noreferrer">Follow on LinkedIn</a>
+            <a href="https://www.youtube.com/channel/UCg7jxqcGxDwvwMYy7_LtY5Q" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="footer-container"></div>
+</body>
+
+</html>

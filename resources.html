@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Resources | IEA Wind TCP Task 61</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/footer.js"></script>
+  <style>
+    .menu-resources {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+
+    .resources-intro {
+      padding: 32px 30px;
+      background: #f3f6f2;
+      border-bottom: 4px solid #287d22;
+    }
+
+    .resources-intro h1 {
+      margin: 0;
+    }
+
+    .resources-intro p {
+      max-width: 760px;
+      margin: 10px 0 0;
+      color: #4a4a4a;
+      font-size: 18px;
+    }
+
+    .resources-content {
+      padding: 24px 20px 48px;
+    }
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat( auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin: 22px 0 34px;
+    }
+
+    .resource-card {
+      padding: 22px;
+      background: #fff;
+      border: 1px solid #e2e6e0;
+      border-radius: 6px;
+      box-shadow: 0 3px 12px rgb(0 0 0 / 6%);
+    }
+
+    .resource-card h2 {
+      margin: 12px 0 8px;
+      font-size: 21px;
+    }
+
+    .resource-icon {
+      color: #287d22;
+      font-size: 24px;
+    }
+
+    .resource-status {
+      padding: 20px 24px;
+      background: #f7f8f7;
+      border-left: 4px solid #287d22;
+    }
+
+    .resource-status p:last-child {
+      margin-bottom: 0;
+    }
+
+    .resource-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .resource-links a {
+      display: inline-block;
+      padding: 9px 14px;
+      color: #fff;
+      background: #287d22;
+      border-radius: 3px;
+      text-decoration: none;
+    }
+
+    .resource-links a:hover {
+      background: #1d5f19;
+    }
+
+    @media (max-width: 650px) {
+      .resources-content {
+        padding-right: 14px;
+        padding-left: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <header class="resources-intro">
+      <div class="content">
+        <h1>Resources</h1>
+        <p>Find public reports, presentations, and other materials from the IEA Wind TCP Task 61 VRE-H2 collaboration.</p>
+      </div>
+    </header>
+
+    <main class="content resources-content">
+      <section aria-labelledby="library-title">
+        <h2 id="library-title">Resource library</h2>
+        <p>Task 61 brings together work on renewable electricity and hydrogen across wind, solar, and hydrogen technologies. Public materials will be collected here as they are released.</p>
+
+        <div class="resource-grid">
+          <article class="resource-card">
+            <span class="resource-icon fas fa-file-alt" aria-hidden="true"></span>
+            <h2>Reports &amp; deliverables</h2>
+            <p>Public reports and task deliverables will be listed here when available.</p>
+          </article>
+          <article class="resource-card">
+            <span class="resource-icon fas fa-chalkboard-teacher" aria-hidden="true"></span>
+            <h2>Presentations &amp; events</h2>
+            <p>Slides and materials from public workshops and events will be added to this collection.</p>
+          </article>
+          <article class="resource-card">
+            <span class="resource-icon fas fa-link" aria-hidden="true"></span>
+            <h2>Project information</h2>
+            <p>Learn about Task 61’s objectives, work packages, and participation on the overview page.</p>
+            <p><a href="index.html">Explore the Task 61 overview</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="updates-title">
+        <h2 id="updates-title">Stay up to date</h2>
+        <div class="resource-status">
+          <p><strong>The public resource library is being assembled.</strong></p>
+          <p>Follow Task 61’s official channels for announcements about new publications, videos, and other materials.</p>
+          <div class="resource-links">
+            <a href="https://www.linkedin.com/company/iea-wind-task-61/posts" target="_blank" rel="noopener noreferrer">Task 61 on LinkedIn</a>
+            <a href="https://www.youtube.com/channel/UCg7jxqcGxDwvwMYy7_LtY5Q" target="_blank" rel="noopener noreferrer">Task 61 on YouTube</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="footer-container"></div>
+</body>
+
+</html>
